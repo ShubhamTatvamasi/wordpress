@@ -1,5 +1,7 @@
 # wordpress
 
+Theme: Astra
+
 Install wordpress:
 ```bash
 helm upgrade --install wordpress bitnami/wordpress \
