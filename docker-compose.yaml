@@ -38,10 +38,10 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
-      - db:/var/lib/mysql
+      - mysql:/var/lib/mysql
 
 volumes:
   caddy_config:
   caddy_data:
   wordpress:
-  db:
+  mysql:
